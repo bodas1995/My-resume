@@ -17,15 +17,26 @@ body {
 }
 
 /*Показуємо дату з права вікна */
+/*#date {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    background-color: azure;*/
+/*    padding: 10px;*/
+/*    border: 1px solid bisque;*/
+/*    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);*/
+/*}*/
 #date {
-    position: fixed;
+    /*position: absolute;*/
     top: 0;
     right: 0;
-    background-color: azure;
-    padding: 10px;
-    border: 1px solid bisque;
+    /*background-color: azure;*/
+    padding: 5px;
+    /*border: 1px solid bisque;*/
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
 }
+
 
 
 
