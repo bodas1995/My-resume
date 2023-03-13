@@ -1,6 +1,10 @@
 
 
 body {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*!*height: 100vh;*!*/
     background-image: url('https://s1.1zoom.ru/b5050/28/434299-Kycb_1920x1080.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,17 +62,36 @@ h3 {
     margin: 1rem 0 0.5rem;
 }
 
+/*img {*/
+/*    !*position: absolute;*!*/
+/*    !*right: 200px;*!*/
+/*    !*left: 700px;*!*/
+/*    display: inline-block*/
+/*    max-width: 80%;*/
+/*    max-height: 400px;*/
+/*    margin: 0 auto;*/
+/*    border: 1px solid black;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);*/
+/*}*/
+
 img {
-    position: absolute;
-    right: 200px;
-    left: 700px;
-    display: block; /* встановлюємо властивість display як block, щоб зображення було блочним елементом */
-    max-width: 30%; /* встановлюємо максимальну ширину зображення як 100% */
-    height: auto; /* встановлюємо властивість height як auto, щоб зображення зберігало пропорції */
-    margin: 0 auto; /* вирівнюємо зображення по центру горизонтально */
-    border: 1px solid black; /* додаємо рамку з чорним кольором */
-    border-radius: 10px; /* додаємо закруглення кутиків рамки */
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* додаємо тінь */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+@media screen and (min-width: 768px) {
+    img {
+        max-width: 30%;
+        position: absolute;
+        right: 200px;
+        left: 700px;
+    }
 }
 
 /* Стили для изображения */
